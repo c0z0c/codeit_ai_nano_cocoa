@@ -1,15 +1,15 @@
 ---
 layout: default
-title: "코드잇 AI 4기 3팀 고급 프로젝트 - 김명환"
-description: "코드잇 AI 4기 3팀 고급 프로젝트 - 김명환"
+title: "코드잇 AI 4기 3팀 고급 프로젝트 - 박지윤"
+description: "코드잇 AI 4기 3팀 고급 프로젝트 - 박지윤"
 date: 2025-12-28
 cache-control: no-cache
 expires: 0
 pragma: no-cache
-author: "김명환"
+author: "박지윤"
 ---
 
-# 협업일지 김명환
+# 협업일지 박지윤
 
 <script>
 

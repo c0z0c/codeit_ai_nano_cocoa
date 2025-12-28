@@ -1,15 +1,15 @@
 ---
 layout: default
-title: "코드잇 AI 4기 3팀 고급 프로젝트 - 김민혁"
-description: "코드잇 AI 4기 3팀 고급 프로젝트 - 김민혁"
+title: "코드잇 AI 4기 3팀 고급 프로젝트 - 보고서"
+description: "코드잇 AI 4기 3팀 고급 프로젝트 - 보고서"
 date: 2025-12-28
 cache-control: no-cache
 expires: 0
 pragma: no-cache
-author: "김민혁"
+author: "김명환"
 ---
 
-# 협업일지 김민혁
+# 보고서
 
 <script>
 
@@ -22,18 +22,18 @@ function getFolderInfo(folderName) {
         '백업': { icon: '', desc: '백업 파일들' },
         '발표자료': { icon: '', desc: '발표 자료' },
         '셈플': { icon: '', desc: '샘플 파일들' },
-        '스터디': { icon: '', desc: '학습 자료' },
+        '보고서': { icon: '', desc: '학습 자료' },
         '실습': { icon: '', desc: '실습 자료' },
         '위클리페이퍼': { icon: '', desc: '주간 학습 리포트' },
         '테스트': { icon: '', desc: '테스트 파일들' },
-        '협업일지': { icon: '', desc: '협업일지' },
-        '회의록': { icon: '', desc: '팀 회의록' },
+        '보고서': { icon: '', desc: '협업일지' },
+        '보고서': { icon: '', desc: '팀 보고서' },
         'AI 모델 환경 설치가이드': { icon: '', desc: '설치 가이드' },
         'assets': { icon: '', desc: '정적 자원' },
         'image': { icon: '', desc: '이미지 파일들' },
         'Learning': { icon: '', desc: '학습 자료' },
         'Learning Daily': { icon: '', desc: '일일 학습 기록' },
-        'md': { icon: '', desc: 'Markdown 문서' }
+        'md': { icon: '', desc: 'Markdown 보고서' }
     };
     return folderMappings[folderName] || { icon: '', desc: '폴더' };
 }
@@ -75,7 +75,7 @@ function getFileInfo(extname) {
   }
 }
 
-{% assign cur_dir = "/협업일지/김민혁/" %}
+{% assign cur_dir = "/보고서/" %}
 {% include cur_files.liquid %}
 {% include page_values.html %}
 {% include page_files_table.html %}
